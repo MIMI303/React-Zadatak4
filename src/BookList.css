@@ -1,0 +1,49 @@
+.body {
+    display: grid;
+    grid-row: 3;
+    grid-column: 2/span2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    border: 1px solid darkgray;
+}
+
+
+.cardMenu {
+    border: 1px solid grey;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+    border: 2px solid darkgray;
+    margin: 5px;
+    width: 6cm;
+    height: 6cm;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.bottom {
+    display: flexbox;
+    padding: 3px;
+
+
+}
+
+.p {
+    text-align: center;
+}
+
+
+.button {
+    padding: 1px;
+    margin-left: 25px;
+    width: 40px;
+    background-color: silver;
+    box-shadow: 3px 3px 3px gray;
+
+}
